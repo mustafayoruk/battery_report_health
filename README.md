@@ -17,7 +17,7 @@ This Python-based tool for Windows automatically analyzes your computer's batter
 ## Requirements
 
 * **Windows Operating System:** This tool relies on the `powercfg` command, making it exclusive to Windows.
-* **Python 3:** Python 3.x must be installed on your system for the tool to run.
+* **Python 3:** Python 3.x must be installed on your system for the tool to run.(recommended python 3.11)
   * You can download Python from: [python.org/downloads/](https://www.python.org/downloads/)
   * **Crucially, remember to check "Add Python to PATH" during installation.**
 * **`beautifulsoup4` Library:** Requires the `beautifulsoup4` library for HTML parsing.
