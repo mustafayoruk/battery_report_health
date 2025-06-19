@@ -2,7 +2,7 @@
 
 ![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Operating System](https://img.shields.io/badge/OS-Windows-lightgrey.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg) This Python-based tool for Windows automatically analyzes your computer's battery health. It leverages Windows' built-in `powercfg` command to generate a battery report, parses this report, and presents your battery's current health percentage in a user-friendly manner. The temporary HTML report file generated during the analysis is automatically deleted upon completion.
+This Python-based tool for Windows automatically analyzes your computer's battery health. It leverages Windows' built-in `powercfg` command to generate a battery report, parses this report, and presents your battery's current health percentage in a user-friendly manner. The temporary HTML report file generated during the analysis is automatically deleted upon completion.
 
 ## Features
 
@@ -49,10 +49,6 @@
 * **For Windows (PowerShell):**
         ```powershell
         .\.venv\Scripts\Activate.ps1
-        ```
-* **For macOS / Linux (Bash / Zsh):**
-        ```bash
-        source ./.venv/bin/activate
         ```
     *(Note: Your command line prompt should show `(.venv)` at the beginning once the environment is active.)*
 
